@@ -1,0 +1,103 @@
+body {
+  background-color: rgba(255, 223, 223, 0.291);
+}
+.header{
+  background-color: rgb(200, 237, 255);
+  text-align: center;
+  color: black;
+}
+.header h1{
+  margin-left: 10px;
+}
+.container{
+  width: 950px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  overflow:hidden;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.content{
+  padding:10px;
+  background-color: white;
+
+}
+.nav{
+  width: 180px;
+  float: left;
+  background-color: white;
+}
+.main{
+  width: 750px;
+  float: left;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.image img{
+  width: 225px;
+}
+.image{
+  display: block;
+  padding: initial;
+
+}
+.interduction{
+  width: auto;
+  flex: right;
+  margin-left: 20px;
+  padding-right: 20px;
+  border-right: 1px solid black;
+}
+.nutrition {
+  padding-left: 20px;
+}
+
+.nutrition-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+
+}
+
+.nutrition-item {
+  padding: 2px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.container-recipes{
+  width: 750px;
+  float: left;
+  background-color: white;
+  border: 1px solid black;
+  float: right;
+  margin-top:10px;
+  flex-wrap:wrap;
+  flex-direction: row;
+}
+.Ingredients{
+  width:300px;
+  border-right: solid 1px black;
+  float: left;
+
+}
+.ways{
+  width: 420px;;
+  float: right;
+}
+.footer {
+  background-color: grey;
+  clear: right;
+  margin-top: 20px;
+}
+ul{
+  list-style-type: none;
+}
+a{
+  text-decoration: underline;
+  color:black;
+}

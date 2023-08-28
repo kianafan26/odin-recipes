@@ -1,0 +1,88 @@
+body {
+  background-color: rgba(255, 223, 223, 0.291);
+}
+
+.container {
+  width: 950px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.header {
+  background-color: rgb(200, 237, 255);
+  color: black;
+  text-align: center;
+}
+
+.nav {
+  width: 180px;
+  float: left;
+  background-color: white;
+}
+
+.main {
+  width: 750px;
+  float: right;
+  background-color: white;
+  display: flex;
+}
+
+.image img {
+  width: 225px;
+  height: 150px;
+}
+
+.intro {
+  margin-left: 10px;
+  border-right: 1px solid black;
+  padding-right: 10px;
+}
+
+.nutrition {
+  margin-left: 10px;
+}
+
+.nutrition-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+.recipes-container {
+  width: 750px;
+  float: right;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.ways {
+  float: right;
+  width: 390px;
+}
+
+.ingredients {
+  float: left;
+  width: 300px;
+  border-right: 1px black solid;
+  padding: 10px;
+}
+
+.footer {
+  background-color: grey;
+  clear: right;
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: underline;
+  color: black;
+}
